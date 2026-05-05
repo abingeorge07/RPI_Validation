@@ -1,0 +1,699 @@
+{
+  "spec": {
+    "robot": "aliengo",
+    "scene": "flat",
+    "duration": 6.0,
+    "controller_option_high_level": "constant_velocity",
+    "controller_option_foothold": "NMPCController",
+    "controller_params": {}
+  },
+  "created_at_unix": 1775770506.9020672,
+  "dtype": "float64",
+  "timesteps": 5990,
+  "files": {
+    "states": {
+      "path": "states.bin",
+      "shape": [
+        5990,
+        655
+      ],
+      "layout": [
+        {
+          "name": "angular_velocity",
+          "offset": 0,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "base_position",
+          "offset": 3,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "base_quat",
+          "offset": 6,
+          "length": 4,
+          "shape": [
+            4
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "com_position",
+          "offset": 10,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac.FL",
+          "offset": 13,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac.FR",
+          "offset": 67,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac.RL",
+          "offset": 121,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac.RR",
+          "offset": 175,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac_dot.FL",
+          "offset": 229,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac_dot.FR",
+          "offset": 283,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac_dot.RL",
+          "offset": 337,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_jac_dot.RR",
+          "offset": 391,
+          "length": 54,
+          "shape": [
+            3,
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_pos.FL",
+          "offset": 445,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_pos.FR",
+          "offset": 448,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_pos.RL",
+          "offset": 451,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_pos.RR",
+          "offset": 454,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_vel.FL",
+          "offset": 457,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_vel.FR",
+          "offset": 460,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_vel.RL",
+          "offset": 463,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "feet_vel.RR",
+          "offset": 466,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "hip_pos.FL",
+          "offset": 469,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "hip_pos.FR",
+          "offset": 472,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "hip_pos.RL",
+          "offset": 475,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "hip_pos.RR",
+          "offset": 478,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "inertia",
+          "offset": 481,
+          "length": 9,
+          "shape": [
+            9
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "joint_angles.FL",
+          "offset": 490,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "joint_angles.FR",
+          "offset": 493,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "joint_angles.RL",
+          "offset": 496,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "joint_angles.RR",
+          "offset": 499,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "joint_pos_ids.FL",
+          "offset": 502,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "joint_pos_ids.FR",
+          "offset": 505,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "joint_pos_ids.RL",
+          "offset": 508,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "joint_pos_ids.RR",
+          "offset": 511,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_mass_matrix.FL",
+          "offset": 514,
+          "length": 9,
+          "shape": [
+            3,
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_mass_matrix.FR",
+          "offset": 523,
+          "length": 9,
+          "shape": [
+            3,
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_mass_matrix.RL",
+          "offset": 532,
+          "length": 9,
+          "shape": [
+            3,
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_mass_matrix.RR",
+          "offset": 541,
+          "length": 9,
+          "shape": [
+            3,
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_bias.FL",
+          "offset": 550,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_bias.FR",
+          "offset": 553,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_bias.RL",
+          "offset": 556,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_bias.RR",
+          "offset": 559,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_passive.FL",
+          "offset": 562,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_passive.FR",
+          "offset": 565,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_passive.RL",
+          "offset": 568,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qfrc_passive.RR",
+          "offset": 571,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "legs_qpos_idx.FL",
+          "offset": 574,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qpos_idx.FR",
+          "offset": 577,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qpos_idx.RL",
+          "offset": 580,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qpos_idx.RR",
+          "offset": 583,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qvel_idx.FL",
+          "offset": 586,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qvel_idx.FR",
+          "offset": 589,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qvel_idx.RL",
+          "offset": 592,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "legs_qvel_idx.RR",
+          "offset": 595,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "int64"
+        },
+        {
+          "name": "linear_velocity",
+          "offset": 598,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "orientation",
+          "offset": 601,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "qpos",
+          "offset": 604,
+          "length": 19,
+          "shape": [
+            19
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "qvel",
+          "offset": 623,
+          "length": 18,
+          "shape": [
+            18
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "step_num",
+          "offset": 641,
+          "length": 1,
+          "shape": [
+            1
+          ],
+          "source_dtype": "int"
+        },
+        {
+          "name": "time",
+          "offset": 642,
+          "length": 1,
+          "shape": [
+            1
+          ],
+          "source_dtype": "float"
+        },
+        {
+          "name": "torques.FL",
+          "offset": 643,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "torques.FR",
+          "offset": 646,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "torques.RL",
+          "offset": 649,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        },
+        {
+          "name": "torques.RR",
+          "offset": 652,
+          "length": 3,
+          "shape": [
+            3
+          ],
+          "source_dtype": "float64"
+        }
+      ]
+    },
+    "ref_velocity": {
+      "path": "ref_velocity.bin",
+      "shape": [
+        5990,
+        3
+      ],
+      "components": [
+        "vx",
+        "vy",
+        "vz"
+      ]
+    },
+    "ref_angular_velocity": {
+      "path": "ref_angular_velocity.bin",
+      "shape": [
+        5990,
+        3
+      ],
+      "components": [
+        "wx",
+        "wy",
+        "wz"
+      ]
+    },
+    "torques": {
+      "path": "torques.bin",
+      "shape": [
+        5990,
+        12
+      ],
+      "layout": [
+        {
+          "name": "torque.FL",
+          "offset": 0,
+          "length": 3,
+          "shape": [
+            3
+          ]
+        },
+        {
+          "name": "torque.FR",
+          "offset": 3,
+          "length": 3,
+          "shape": [
+            3
+          ]
+        },
+        {
+          "name": "torque.RL",
+          "offset": 6,
+          "length": 3,
+          "shape": [
+            3
+          ]
+        },
+        {
+          "name": "torque.RR",
+          "offset": 9,
+          "length": 3,
+          "shape": [
+            3
+          ]
+        }
+      ]
+    },
+    "cpu_time_ms": {
+      "path": "cpu_time_ms.bin",
+      "shape": [
+        5990,
+        1
+      ]
+    },
+    "cpu_time_high_level_ms": {
+      "path": "cpu_time_high_level_ms.bin",
+      "shape": [
+        5990,
+        1
+      ],
+      "description": "High-level planner CPU time per step"
+    },
+    "cpu_time_low_level_ms": {
+      "path": "cpu_time_low_level_ms.bin",
+      "shape": [
+        5990,
+        1
+      ],
+      "description": "Low-level (foothold) planner CPU time per step"
+    },
+    "qp_iterations": {
+      "path": "qp_iterations.bin",
+      "shape": [
+        5990,
+        1
+      ],
+      "description": "Number of iterations taken by the QP solver per step"
+    }
+  }
+}
