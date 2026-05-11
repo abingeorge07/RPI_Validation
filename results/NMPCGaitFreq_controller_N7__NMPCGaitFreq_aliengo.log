@@ -1,0 +1,13 @@
+NMPCGaitFreq_controller: "NMPCGaitFreq_aliengo"
+
+[DATASET] NMPCGaitFreq_aliengo
+  robot=aliengo  scene=flat
+  steps=5990  row_width=655
+  Loaded 5990 states, 12 joints (3/limb)
+  [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
+  Instantiating MainController (NMPCGaitFreq)...
+    step 0 latency: 177135 us, qp_iter_ll=12, qp_iter_gf=60
+    step 1 latency: 113016 us, qp_iter_ll=7, qp_iter_gf=46
+    step 2 latency: 102388 us, qp_iter_ll=6, qp_iter_gf=36
+    step 3 latency: 98777 us, qp_iter_ll=6, qp_iter_gf=36
+    step 4 latency: 98689 us, qp_iter_ll=6, qp_iter_gf=36

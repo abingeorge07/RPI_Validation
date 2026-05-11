@@ -1,0 +1,21 @@
+NMPC_controller: "NMPC_aliengo"
+
+[DATASET] NMPC_aliengo
+  robot=aliengo  scene=flat
+  steps=5990  row_width=655
+  Loaded 5990 states, 12 joints (3/limb)
+  [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
+  Instantiating MainController (NMPCController)...
+    step 0 latency: 286356 us, qp_iter=12
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+    step 1 latency: 223799 us, qp_iter=8
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+    step 2 latency: 189647 us, qp_iter=7
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+    step 3 latency: 185345 us, qp_iter=7
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+    step 4 latency: 185995 us, qp_iter=6

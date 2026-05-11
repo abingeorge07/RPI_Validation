@@ -1,0 +1,13 @@
+NMPCGaitFreq_controller: "NMPCGaitFreq_origami"
+
+[DATASET] NMPCGaitFreq_origami
+  robot=origami  scene=flat
+  steps=5990  row_width=503
+  Loaded 5990 states, 8 joints (2/limb)
+  [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
+  Instantiating MainController (NMPCGaitFreq)...
+    step 0 latency: 175995 us, qp_iter_ll=10, qp_iter_gf=60
+    step 1 latency: 122316 us, qp_iter_ll=9, qp_iter_gf=43
+    step 2 latency: 117497 us, qp_iter_ll=8, qp_iter_gf=42
+    step 3 latency: 107249 us, qp_iter_ll=8, qp_iter_gf=38
+    step 4 latency: 105357 us, qp_iter_ll=8, qp_iter_gf=37

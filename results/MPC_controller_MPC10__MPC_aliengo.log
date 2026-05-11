@@ -1,0 +1,20 @@
+MPC_controller: "MPC_aliengo"
+
+[DATASET] MPC_aliengo
+  robot=aliengo  scene=flat
+  steps=5990  row_width=655
+  Loaded 5990 states, 12 joints (3/limb)
+  Instantiating HighLevelController (MPCPlanner only)...
+Warning: could not load obstacle JSON '/home/abg309/PhD/RCL/DSE_Quadruped/quadruped_dse/computer_hardware/controls_cpp/../../mechanical_properties/models/scenes/obstacle/obstacle.json': bad file: /home/abg309/PhD/RCL/DSE_Quadruped/quadruped_dse/computer_hardware/controls_cpp/../../mechanical_properties/models/scenes/obstacle/obstacle.json
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+    step 0 MPC plan latency: 11569 us, ipopt_iters=9
+    step 1 MPC plan latency: 13052 us, ipopt_iters=11
+    step 2 MPC plan latency: 12964 us, ipopt_iters=11
+    step 3 MPC plan latency: 12938 us, ipopt_iters=11
+    step 4 MPC plan latency: 12948 us, ipopt_iters=11

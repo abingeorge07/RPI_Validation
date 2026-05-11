@@ -1,0 +1,12 @@
+ConstVel_controller: "ConstVel_origami"
+
+[DATASET] ConstVel_origami
+  robot=origami  scene=flat
+  steps=5990  row_width=503
+  Loaded 5990 states, 8 joints (2/limb)
+  Instantiating HighLevelController (ConstantVelocity only)...
+    step 0 ConstVel plan latency: 0 us
+    step 1 ConstVel plan latency: 0 us
+    step 2 ConstVel plan latency: 0 us
+    step 3 ConstVel plan latency: 0 us
+    step 4 ConstVel plan latency: 0 us
