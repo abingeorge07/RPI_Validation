@@ -6,8 +6,8 @@ NMPCGaitFreq_controller: "NMPCGaitFreq_origami"
   Loaded 5990 states, 8 joints (2/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCGaitFreq)...
-    step 0 latency: 179265 us, qp_iter_ll=10, qp_iter_gf=60
-    step 1 latency: 122008 us, qp_iter_ll=9, qp_iter_gf=43
-    step 2 latency: 117074 us, qp_iter_ll=8, qp_iter_gf=42
-    step 3 latency: 107281 us, qp_iter_ll=8, qp_iter_gf=38
-    step 4 latency: 105173 us, qp_iter_ll=8, qp_iter_gf=37
+    step 0 latency: 174798 us, qp_iter_ll=10, qp_iter_gf=60
+    step 1 latency: 121617 us, qp_iter_ll=9, qp_iter_gf=43
+    step 2 latency: 116742 us, qp_iter_ll=8, qp_iter_gf=42
+    step 3 latency: 106770 us, qp_iter_ll=8, qp_iter_gf=38
+    step 4 latency: 104531 us, qp_iter_ll=8, qp_iter_gf=37

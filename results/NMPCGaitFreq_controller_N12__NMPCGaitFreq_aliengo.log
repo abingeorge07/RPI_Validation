@@ -6,16 +6,16 @@ NMPCGaitFreq_controller: "NMPCGaitFreq_aliengo"
   Loaded 5990 states, 12 joints (3/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCGaitFreq)...
-    step 0 latency: 286145 us, qp_iter_ll=12, qp_iter_gf=56
+    step 0 latency: 286302 us, qp_iter_ll=12, qp_iter_gf=56
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 1 latency: 222185 us, qp_iter_ll=8, qp_iter_gf=50
+    step 1 latency: 222364 us, qp_iter_ll=8, qp_iter_gf=50
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 2 latency: 188408 us, qp_iter_ll=7, qp_iter_gf=37
+    step 2 latency: 188607 us, qp_iter_ll=7, qp_iter_gf=37
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 3 latency: 185202 us, qp_iter_ll=7, qp_iter_gf=39
+    step 3 latency: 185122 us, qp_iter_ll=7, qp_iter_gf=39
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 4 latency: 183547 us, qp_iter_ll=6, qp_iter_gf=38
+    step 4 latency: 183690 us, qp_iter_ll=6, qp_iter_gf=38

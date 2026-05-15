@@ -5,7 +5,7 @@ ConstVel_controller: "ConstVel_aliengo"
   steps=5990  row_width=655
   Loaded 5990 states, 12 joints (3/limb)
   Instantiating HighLevelController (ConstantVelocity only)...
-    step 0 ConstVel plan latency: 1 us
+    step 0 ConstVel plan latency: 0 us
     step 1 ConstVel plan latency: 0 us
     step 2 ConstVel plan latency: 0 us
     step 3 ConstVel plan latency: 0 us

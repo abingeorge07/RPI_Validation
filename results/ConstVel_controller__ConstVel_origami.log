@@ -5,7 +5,7 @@ ConstVel_controller: "ConstVel_origami"
   steps=5990  row_width=503
   Loaded 5990 states, 8 joints (2/limb)
   Instantiating HighLevelController (ConstantVelocity only)...
-    step 0 ConstVel plan latency: 1 us
+    step 0 ConstVel plan latency: 0 us
     step 1 ConstVel plan latency: 0 us
     step 2 ConstVel plan latency: 0 us
     step 3 ConstVel plan latency: 0 us

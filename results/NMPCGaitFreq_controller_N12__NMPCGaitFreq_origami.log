@@ -6,20 +6,20 @@ NMPCGaitFreq_controller: "NMPCGaitFreq_origami"
   Loaded 5990 states, 8 joints (2/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCGaitFreq)...
-    step 0 latency: 345679 us, qp_iter_ll=12, qp_iter_gf=75
+    step 0 latency: 342407 us, qp_iter_ll=12, qp_iter_gf=75
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 1 latency: 251304 us, qp_iter_ll=8, qp_iter_gf=48
+    step 1 latency: 251746 us, qp_iter_ll=8, qp_iter_gf=48
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 2 latency: 204383 us, qp_iter_ll=8, qp_iter_gf=43
+    step 2 latency: 204455 us, qp_iter_ll=8, qp_iter_gf=43
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
 
 QP solver returned error status 1 (ACADOS_NAN_DETECTED) in SQP iteration 1, QP iteration 1.
-    step 3 latency: 171954 us, qp_iter_ll=7, qp_iter_gf=34
+    step 3 latency: 172316 us, qp_iter_ll=7, qp_iter_gf=34
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 4 latency: 176656 us, qp_iter_ll=7, qp_iter_gf=35
+    step 4 latency: 176845 us, qp_iter_ll=7, qp_iter_gf=35

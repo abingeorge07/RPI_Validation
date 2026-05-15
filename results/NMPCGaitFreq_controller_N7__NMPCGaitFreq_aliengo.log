@@ -6,8 +6,8 @@ NMPCGaitFreq_controller: "NMPCGaitFreq_aliengo"
   Loaded 5990 states, 12 joints (3/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCGaitFreq)...
-    step 0 latency: 176869 us, qp_iter_ll=12, qp_iter_gf=60
-    step 1 latency: 113465 us, qp_iter_ll=7, qp_iter_gf=46
-    step 2 latency: 102835 us, qp_iter_ll=6, qp_iter_gf=36
-    step 3 latency: 99402 us, qp_iter_ll=6, qp_iter_gf=36
-    step 4 latency: 99268 us, qp_iter_ll=6, qp_iter_gf=36
+    step 0 latency: 177738 us, qp_iter_ll=12, qp_iter_gf=60
+    step 1 latency: 113828 us, qp_iter_ll=7, qp_iter_gf=46
+    step 2 latency: 103097 us, qp_iter_ll=6, qp_iter_gf=36
+    step 3 latency: 99521 us, qp_iter_ll=6, qp_iter_gf=36
+    step 4 latency: 99476 us, qp_iter_ll=6, qp_iter_gf=36
