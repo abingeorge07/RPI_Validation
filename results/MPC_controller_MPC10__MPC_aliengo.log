@@ -13,8 +13,8 @@ This program contains Ipopt, a library for large-scale nonlinear optimization.
          For more information visit https://github.com/coin-or/Ipopt
 ******************************************************************************
 
-    step 0 MPC plan latency: 11569 us, ipopt_iters=9
-    step 1 MPC plan latency: 13052 us, ipopt_iters=11
-    step 2 MPC plan latency: 12964 us, ipopt_iters=11
-    step 3 MPC plan latency: 12938 us, ipopt_iters=11
-    step 4 MPC plan latency: 12948 us, ipopt_iters=11
+    step 0 MPC plan latency: 11548 us, ipopt_iters=9
+    step 1 MPC plan latency: 12997 us, ipopt_iters=11
+    step 2 MPC plan latency: 12922 us, ipopt_iters=11
+    step 3 MPC plan latency: 12936 us, ipopt_iters=11
+    step 4 MPC plan latency: 12905 us, ipopt_iters=11

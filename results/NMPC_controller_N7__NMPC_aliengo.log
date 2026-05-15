@@ -6,8 +6,8 @@ NMPC_controller: "NMPC_aliengo"
   Loaded 5990 states, 12 joints (3/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCController)...
-    step 0 latency: 177381 us, qp_iter=12
-    step 1 latency: 112885 us, qp_iter=7
-    step 2 latency: 102016 us, qp_iter=6
-    step 3 latency: 98452 us, qp_iter=6
-    step 4 latency: 98523 us, qp_iter=6
+    step 0 latency: 176320 us, qp_iter=12
+    step 1 latency: 113082 us, qp_iter=7
+    step 2 latency: 102475 us, qp_iter=6
+    step 3 latency: 98377 us, qp_iter=6
+    step 4 latency: 97725 us, qp_iter=6

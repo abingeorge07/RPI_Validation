@@ -5,8 +5,8 @@ Default8_controller: "Default8_origami"
   steps=5990  row_width=503
   Loaded 5990 states, 8 joints (2/limb)
   Instantiating MainController (default_gait_8dof)...
-    step 0 latency: 145 us, qp_iter=-1
-    step 1 latency: 103 us, qp_iter=-1
-    step 2 latency: 102 us, qp_iter=-1
-    step 3 latency: 102 us, qp_iter=-1
-    step 4 latency: 102 us, qp_iter=-1
+    step 0 latency: 151 us, qp_iter=-1
+    step 1 latency: 102 us, qp_iter=-1
+    step 2 latency: 101 us, qp_iter=-1
+    step 3 latency: 101 us, qp_iter=-1
+    step 4 latency: 101 us, qp_iter=-1
