@@ -6,8 +6,8 @@ NMPC_controller: "NMPC_origami"
   Loaded 5990 states, 8 joints (2/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCController)...
-    step 0 latency: 188635 us, qp_iter=10
-    step 1 latency: 121274 us, qp_iter=9
-    step 2 latency: 115883 us, qp_iter=8
-    step 3 latency: 105958 us, qp_iter=8
-    step 4 latency: 104134 us, qp_iter=8
+    step 0 latency: 175693 us, qp_iter=10
+    step 1 latency: 122011 us, qp_iter=9
+    step 2 latency: 140542 us, qp_iter=8
+    step 3 latency: 115478 us, qp_iter=8
+    step 4 latency: 104746 us, qp_iter=8

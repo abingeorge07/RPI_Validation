@@ -1,2 +1,12 @@
-terminate called after throwing an instance of 'std::runtime_error'
-  what():  QuasiStaticController: missing `quasi_static_params` block in YAML.
+Default12_controller: "Default12_aliengo"
+
+[DATASET] Default12_aliengo
+  robot=aliengo  scene=flat
+  steps=5990  row_width=655
+  Loaded 5990 states, 12 joints (3/limb)
+  Instantiating MainController (default_gait_12dof)...
+    step 0 latency: 197 us, qp_iter=-1
+    step 1 latency: 78 us, qp_iter=-1
+    step 2 latency: 76 us, qp_iter=-1
+    step 3 latency: 76 us, qp_iter=-1
+    step 4 latency: 76 us, qp_iter=-1

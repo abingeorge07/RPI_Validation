@@ -6,20 +6,24 @@ NMPC_controller: "NMPC_origami"
   Loaded 5990 states, 8 joints (2/limb)
   [NMPC] horizon=8  num_qp_iterations=2  qp_solver_iter_max=50
   Instantiating MainController (NMPCController)...
-    step 0 latency: 341632 us, qp_iter=12
-
-QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 1 latency: 250258 us, qp_iter=8
-
-QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 2 latency: 203392 us, qp_iter=8
+    step 0 latency: 344996 us, qp_iter=12
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
 
 QP solver returned error status 1 (ACADOS_NAN_DETECTED) in SQP iteration 1, QP iteration 1.
-    step 3 latency: 171150 us, qp_iter=7
+    step 1 latency: 221566 us, qp_iter=8
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
 
 QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
-    step 4 latency: 176034 us, qp_iter=7
+    step 2 latency: 184390 us, qp_iter=8
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+
+QP solver returned error status 1 (ACADOS_NAN_DETECTED) in SQP iteration 1, QP iteration 1.
+    step 3 latency: 171641 us, qp_iter=7
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+
+QP solver returned error status 3 (ACADOS_MINSTEP) in SQP iteration 1, QP iteration 1.
+    step 4 latency: 173092 us, qp_iter=7
