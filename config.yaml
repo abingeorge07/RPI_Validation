@@ -107,6 +107,10 @@ sim_param:
   mpc_frequency: 1000
   use_inertia_recomputation: true
   stand_still_time: 1.0
+  # Hip-relative gait geometry knobs consumed by the 12-DoF QuasiStatic
+  # controller (step_height = scale * hip_height, step_length = scale * hip_height).
+  step_height_scale: 0.3
+  step_length_scale: 0.3
   swing_generator: "scipy"
   swing_position_gain_fb: 500
   swing_velocity_gain_fb: 10
@@ -129,6 +133,37 @@ high_level_param:
   safety_margin: 0.1
 
 gravity_constant: 9.81
+
+# QuasiStaticQuadrupedController (12-DoF) — direct port of the Python
+# QuasiStaticQuadrupedController. Dispatched when sim_param.controller is
+# "default_gait_12dof". step_freq / duty_factor here override sim_param's
+# per-gait values (mirrors gait_params.CONTROLLER_GAIT_OVERRIDES in Python).
+# Baseline gains shown are aliengo; tune per robot.
+quasi_static_params:
+  step_freq: 8.0
+  duty_factor: 0.8
+  kp: [1500.0, 1500.0, 0.0]
+  kd: [25.0, 25.0, 20.0]
+  body_kp_z: 4000.0
+  body_kd_z: 400.0
+  body_kp_xy: 2996.5441
+  body_kd_xy: 180.0
+  body_kp_rp: 1010.9
+  body_kd_rp: 82.93
+  body_kp_yaw: 400.0
+  body_kd_yaw: 40.0
+  max_ref_lead: 0.23
+  max_ref_yaw_lead: 0.4
+  max_ref_yaw_rate: 0.25
+  # Per-leg gait phase offsets in [0,1). Crawl defaults shown — matches
+  # quadruped_dse.controls.additional_lib.helpers.helper_functions.gaits['crawl'].
+  phase_offsets:
+    FL: 0.0
+    FR: 0.5
+    RL: 0.75
+    RR: 0.25
+  # Optional joint-damping term added on top of gravity comp (Python uses 4.0).
+  joint_damping: 4.0
 
 mpc_params:
   type: "nominal"
